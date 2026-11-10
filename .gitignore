@@ -1,0 +1,6 @@
+raw/
+*_raw.*
+*원본*
+__pycache__/
+*.pyc
+.env
