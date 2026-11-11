@@ -1,0 +1,15 @@
+{"bank":"예시은행(가상)","note":"시범 실행용 가상 기업금융 상품 목록. 실제 은행·상품과 무관",
+"products":[
+{"id":"CL-01","name":"기업 운전자금대출(일반)","type":"여신","docs":["사업자등록증","재무제표 3개년","부가세과세표준증명","납세증명서","법인등기부등본","주주명부","대표자 신분증"],"guarantee":null,"rate":"기준금리(CD) + 가산","fx":false,"tie_risk":true},
+{"id":"CL-02","name":"기업 시설자금대출","type":"여신","docs":["사업자등록증","재무제표 3개년","부가세과세표준증명","납세증명서","법인등기부등본","사업계획서","견적서·계약서","담보 감정평가서","건축허가서"],"guarantee":null,"rate":"기준금리(금융채) + 가산","fx":false,"tie_risk":true},
+{"id":"CL-03","name":"신용보증서 담보대출","type":"여신(보증연계)","docs":["사업자등록증","재무제표 2개년","부가세과세표준증명","납세증명서","보증서","법인등기부등본"],"guarantee":"신용보증기금","rate":"기준금리(CD) + 가산","fx":false,"tie_risk":true},
+{"id":"CL-04","name":"기술보증서 담보대출","type":"여신(보증연계)","docs":["사업자등록증","재무제표 2개년","납세증명서","보증서","기술평가서","법인등기부등본"],"guarantee":"기술보증기금","rate":"기준금리(CD) + 가산","fx":false,"tie_risk":true},
+{"id":"CL-05","name":"지역신보 소상공인 특례보증대출","type":"여신(보증연계)","docs":["사업자등록증","부가세과세표준증명","납세증명서","보증서","임대차계약서"],"guarantee":"지역신용보증재단","rate":"기준금리(CD) + 가산","fx":false,"tie_risk":true},
+{"id":"CL-06","name":"정책자금 이차보전대출(지자체)","type":"여신(정책)","docs":["사업자등록증","재무제표 2개년","납세증명서","지자체 추천서","사업계획서"],"guarantee":null,"rate":"기준금리(CD) + 가산 − 지자체 이차보전","fx":false,"tie_risk":true},
+{"id":"CL-07","name":"수출환어음 매입(D/A·D/P)","type":"외환여신","docs":["수출신고필증","선하증권","상업송장","포장명세서","환어음","외국환거래약정서"],"guarantee":null,"rate":"외화 기준금리 + 가산","fx":true,"tie_risk":true},
+{"id":"CL-08","name":"수입신용장 개설","type":"외환여신","docs":["수입계약서","신용장 개설신청서","외국환거래약정서","재무제표 2개년"],"guarantee":null,"rate":"수수료 + 외화 가산","fx":true,"tie_risk":true},
+{"id":"CD-01","name":"기업 자유입출금 통장","type":"수신","docs":["사업자등록증","법인등기부등본","법인인감증명서"],"guarantee":null,"rate":"변동","fx":false,"tie_risk":false},
+{"id":"CD-02","name":"기업 정기예금","type":"수신","docs":["사업자등록증","법인등기부등본"],"guarantee":null,"rate":"고정","fx":false,"tie_risk":false},
+{"id":"CD-03","name":"급여이체 우대 패키지","type":"수신·부대","docs":["사업자등록증","급여이체 약정서"],"guarantee":null,"rate":"-","fx":false,"tie_risk":false},
+{"id":"CD-04","name":"해외송금(기업)","type":"외환","docs":["송금신청서","거래증빙(계약서·송장)","외국환거래약정서"],"guarantee":null,"rate":"수수료","fx":true,"tie_risk":false}
+]}

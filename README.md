@@ -76,14 +76,21 @@ python .claude/skills/bank-rookie-persona/scripts/render_report.py persona.json 
 
 ## 예시
 
-`examples/`에는 **가상 은행(예시은행)과 가상 설문 12명분**으로 시범 실행한 결과가 있습니다. 실제 은행·직원과 무관합니다.
+`examples/`에는 **가상 은행(예시은행)** 으로 두 직무를 시범 실행한 결과가 있습니다. 실제 은행·직원과 무관합니다.
+
+| 직무 | 위치 | 가상 자료 |
+|---|---|---|
+| 개인금융 창구 | `examples/` | 설문 12명 |
+| 기업금융 | `examples/corporate/` | 설문 10명, 기업금융 상품 목록 12개(`products_가상.json`) |
+
+각 폴더에 들어 있는 파일:
 
 | 파일 | 내용 |
 |---|---|
 | `survey_anonymized.csv` | 가명화를 거친 가상 설문 |
 | `survey.json` | 집계 결과 |
 | `persona.json` | 페르소나 분석 입력 |
-| `예시은행_신입행원_페르소나.html` | 완성 보고서 |
+| `*.html` | 완성 보고서 |
 
 ## 파일 구성
 
